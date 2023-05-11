@@ -23,7 +23,7 @@ public class Person implements Comparable {
     }
 
     public static List<Person> createPerson(int numOfPerson){
-        List<Person> people = new ArrayList<>();
+        List<Person> people = new LinkedList<>();
         for (int i = 0; i <= numOfPerson; i ++){
             people.add(new Person());
         }
